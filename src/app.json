@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/map/main",
+    "pages/mine/main",
+    "pages/liulan/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "目的地",
+      "pagePath": "pages/map/main",
+      "iconPath": "static/tabs/map.png",
+      "selectedIconPath": "static/tabs/map-active.png"
+    },{
+      "text": "浏览历史",
+      "pagePath": "pages/liulan/main",
+      "iconPath": "static/tabs/liulan.png",
+      "selectedIconPath": "static/tabs/liulan-active.png"
+    },{
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tabs/mine.png",
+      "selectedIconPath": "static/tabs/mine-active.png"
+    }],
+
+ 
+    "position": "bottom"
+  }
+}
+ 

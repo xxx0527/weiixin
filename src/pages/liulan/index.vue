@@ -2,11 +2,14 @@
 <div>
       <i-panel title="您的访问记录">
       <view class="top-padding">
-      <i-card title="良品铺子" extra="零食" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-        <view slot="content">好多不错的零食</view>
-        <view slot="footer">后街1-22</view>
+
+        <view v-for="item in travels" :key="item" class="top-padding">
+      <i-card :title="item.name"  :extra="item.food" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+        <view slot="content">{{item.sightseeing}}</view>
+        <view slot="footer">{{item.time}}</view>
       </i-card>
-      <view class="top-padding"></view>
+        </view>
+      <!-- <view class="top-padding"></view>
       <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
         <view slot="content">内容不错</view>
         <view slot="footer">尾部内容</view>
@@ -25,7 +28,7 @@
       <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
         <view slot="content">内容不错</view>
         <view slot="footer">尾部内容</view>
-      </i-card>
+      </i-card> -->
       <view class="top-padding"></view>
     </view>
       </i-panel>
@@ -73,6 +76,17 @@ export default {
 
   created () {
     // let app = getApp()
+    const db=wx.clode.database({env:'xxx0527-d45a62'})
+    db.collection('travel').get().then(
+    res=>{
+      console.log(res.data)
+      this.travels=res.data
+    }
+    )
+    //cloud functions
+    wx.cloud.callFunction({name:'my'}).then(
+      res=>{console.log(res)}
+    )
   }
 }
 </script>

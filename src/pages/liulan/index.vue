@@ -4,7 +4,7 @@
       <view class="top-padding">
 
         <view v-for="item in travels" :key="item" class="top-padding">
-      <i-card :title="item.name"  :extra="item.food" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+      <i-card :title="item.name"  :extra="item.food" thumb="cloud://xxx0527-d45a62.7878-xxx0527-d45a62/133100897106.jpg">
         <view slot="content">{{item.sightseeing}}</view>
         <view slot="footer">{{item.time}}</view>
       </i-card>
@@ -76,7 +76,7 @@ export default {
 
   created () {
     // let app = getApp()
-    const db=wx.clode.database({env:'xxx0527-d45a62'})
+    const db=wx.cloud.database({env:'xxx0527-d45a62'})
     db.collection('travel').get().then(
     res=>{
       console.log(res.data)

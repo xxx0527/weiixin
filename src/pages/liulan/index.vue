@@ -79,7 +79,6 @@ export default {
     const db=wx.cloud.database({env:'xxx0527-d45a62'})
     db.collection('travel').get().then(
     res=>{
-      console.log(res.data)
       this.travels=res.data
     }
     )

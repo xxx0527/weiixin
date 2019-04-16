@@ -8,9 +8,12 @@
     </view>
     <i-cell-group>
     <i-cell title="我的收藏" is-link url="/pages/logs/main"></i-cell>
-    <i-cell title="接收通知">
-        <switch slot="footer" checked />
-    </i-cell>
+    <i-cell title="在线客服" is-link> </i-cell>
+    
+    <i-cell title="我的订单" is-link> </i-cell>
+  
+    <i-cell title="我的钱包" is-link url="/pages/money/main"></i-cell>
+    
 </i-cell-group>
   </div>
 </template>

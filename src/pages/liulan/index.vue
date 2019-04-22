@@ -2,34 +2,13 @@
 <div>
       <i-panel title="您的访问记录">
       <view class="top-padding">
-
-        <view v-for="item in travels" :key="item" class="top-padding">
-      <i-card :title="item.name"  :extra="item.food" thumb="cloud://xxx0527-d45a62.7878-xxx0527-d45a62/133100897106.jpg">
+ 
+        <view v-for="item in travels" :key='item' class="top-padding">
+      <i-card :title="item.name"  :extra="item.food" :thumb="item.pic">
         <view slot="content">{{item.sightseeing}}</view>
-        <view slot="footer">{{item.time}}</view>
+        <view slot="content">{{item.timen}}</view>
       </i-card>
-        </view>
-      <!-- <view class="top-padding"></view>
-      <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-        <view slot="content">内容不错</view>
-        <view slot="footer">尾部内容</view>
-      </i-card>
-      <view class="top-padding"></view>
-      <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-        <view slot="content">内容不错</view>
-        <view slot="footer">尾部内容</view>
-      </i-card>
-      <view class="top-padding"></view>
-      <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-        <view slot="content">内容不错</view>
-        <view slot="footer">尾部内容</view>
-      </i-card>
-      <view class="top-padding"></view>
-      <i-card title="卡片标题" i-class="top-padding" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
-        <view slot="content">内容不错</view>
-        <view slot="footer">尾部内容</view>
-      </i-card> -->
-      <view class="top-padding"></view>
+        </view>  
     </view>
       </i-panel>
   </div>
@@ -41,6 +20,7 @@ import card from '@/components/card'
 export default {
   data () {
     return {
+      travels:[],
       current_scroll:'tabl',
       motto: 'Hello miniprograme',
       userInfo: {
@@ -76,15 +56,13 @@ export default {
 
   created () {
     // let app = getApp()
+    
     const db=wx.cloud.database({env:'xxx0527-d45a62'})
-    db.collection('travel').get().then(
+    db.collection('travels').get().then(
     res=>{
+    console.log(res.data)
       this.travels=res.data
     }
-    )
-    //cloud functions
-    wx.cloud.callFunction({name:'my'}).then(
-      res=>{console.log(res)}
     )
   }
 }

@@ -1,13 +1,41 @@
 <template>
   <div @click="clickHandle">
+
     <i-notice-bar icon="systemprompt" loop>
-    {{notice}}，想约你去淋一场樱花雨！！！
+    {{notice}}，这个夏天带你去遨游世界！！！
     </i-notice-bar>
+    <view>
+      <swiper class="swiper" autoplay="true" interval="2000">
+        <swiper-item>
+          <image src="/static/images/上海.jpg"> </image>
+        </swiper-item>
+        <swiper-item>
+          <image src="/static/images/乌镇.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="/static/images/普罗旺斯.jpg"></image>
+          </swiper-item>
+           <swiper-item>
+            <image src="/static/images/西岛.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="/static/images/西藏.jpg"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="/static/images/重庆.jpg"></image>
+          </swiper-item>
+         <swiper-item>
+            <image src="/static/images/凤凰古城.jpg"></image>
+          </swiper-item>
+     </swiper>
+   </view>
+    <view class="top-padding">
     <i-grid i-class="no-border">
        <i-grid-item v-for="item in grids" :key="item" i-class="no-border" >
       <i-grid-label>{{item}}</i-grid-label>
       </i-grid-item>
       </i-grid>
+    </view>
     <i-grid i-class="no-border">
     <i-grid-item i-class="no-border">
         <i-grid-icon>
@@ -49,7 +77,7 @@
     </i-grid-item>
 </i-grid>
       <i-panel title="猜你喜欢">
-      <view class="top-padding">
+      <view class="top-padding"></view>
       <i-card title="三亚" i-class="top-padding" extra="东方夏威夷" thumb="http://img18.3lian.com/d/file/201710/09/2ae95e3f2a5ba11e2ed42559fee7683d.png ">
         <view slot="content">沐浴阳光，体验夏日清爽</view>
         <view slot="footer">三亚出发</view>
@@ -75,7 +103,7 @@
         <view slot="footer">当地特色美食</view>
       </i-card>
       <view class="top-padding"></view>
-    </view>
+    
     </i-panel>
   </div>
 </template>
@@ -86,7 +114,7 @@ import card from '@/components/card'
 export default {
   data () {
     return {
-      notice:"2019年4月3日",
+      notice:"夏日打卡地",
       grids:['美食林','旅游攻略','交通出行','景点门票','民宿酒店','更多']
       }
    },
@@ -128,8 +156,17 @@ div >>> .no-border {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
+
+}
+.swiper{
+  width: 100%;
+  height: 600rpx;
+}
+.swiper image{
+  width: 100%;
+  height: 600rpx;
+}
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;

@@ -13,7 +13,7 @@
     <i-cell title="我的订单" is-link> </i-cell>
   
     <i-cell title="我的钱包" is-link url="/pages/money/main"></i-cell>
-    
+    <i-cell title="设置" is-link url="/pages/money/main"></i-cell>
 </i-cell-group>
   </div>
 </template>
@@ -37,6 +37,7 @@ export default {
   },
 
   methods: {
+    
     bindViewTap () {
       const url = '../logs/main'
       if (mpvuePlatform === 'wx') {

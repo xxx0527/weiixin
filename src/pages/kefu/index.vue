@@ -1,7 +1,5 @@
 <template>
-   <div>
-    
-     <i-tabs :current="current_scroll" scroll @change="handleChangeScroll">
+   <div><i-tabs :current="current_scroll" scroll @change="handleChangeScroll">
     <i-tab key="tab1" title="周边"></i-tab>
     <i-tab key="tab2" title="热门"></i-tab>
     <i-tab key="tab3" title="境内"></i-tab>
@@ -34,7 +32,8 @@
       </i-card>
      </i-panel>
       <view class="top-padding"></view>
-     </div>
+    
+  </div>
 </template>
 
 <script>

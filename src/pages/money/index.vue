@@ -1,5 +1,6 @@
 <template>
   <div @click="clickHandle">
+      <i-panel title="支付方式">
       <i-grid i-class="no-border">
     <i-grid-item i-class="no-border">
         <i-grid-icon>
@@ -26,5 +27,9 @@
         <i-grid-label>优惠券</i-grid-label>
     </i-grid-item>
       </i-grid>
+      </i-panel>
+      <i-panel title="添加卡包">
+          
+      </i-panel>
 </div>
  </template>

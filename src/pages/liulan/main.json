@@ -1,6 +1,6 @@
 {
     "navigationBarTitleText": "浏览历史",
-    "navigationBarBackgroundColor":"#33CCFF",
+    "navigationBarBackgroundColor":"#00E3E3",
     "navigationBarTextStyle":"black",
     "usingComponents": {
         "i-button": "../../../static/dist/button/index",

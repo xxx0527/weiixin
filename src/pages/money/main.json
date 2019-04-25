@@ -1,5 +1,7 @@
 {
     "navigationBarTitleText": "我的钱包",
+    "navigationBarBackgroundColor":"#FFC78E",
+    "navigationBarTextStyle":"black",
     "usingComponents": {
         "i-button": "../../../static/dist/button/index",
         "i-card": "../../../static/dist/card/index",

@@ -1,7 +1,8 @@
 <template>
    <div>
-    
-     <i-tabs :current="current_scroll" scroll @change="handleChangeScroll">
+ 
+
+ <i-tabs :current="current_scroll" scroll @change="handleChangeScroll">
     <i-tab key="tab1" title="周边"></i-tab>
     <i-tab key="tab2" title="热门"></i-tab>
     <i-tab key="tab3" title="境内"></i-tab>
@@ -43,6 +44,8 @@ import card from '@/components/card'
 export default {
   data () {
     return {
+    
+     
       current_scroll:'tabl',
       motto: 'Hello miniprograme',
       userInfo: {
@@ -139,5 +142,8 @@ div >>> .no-border {
   height:1rem;
   background-color:green;
 }
+
+
+
 </style>
   

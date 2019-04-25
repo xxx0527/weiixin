@@ -52,6 +52,7 @@ module.exports = merge(baseWebpackConfig, {
       cssProcessorOptions: {
         safe: true
       }
+    
     }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common/vendor',

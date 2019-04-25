@@ -7,13 +7,15 @@
     <open-data type="userNickName"></open-data>
     </view>
     <i-cell-group>
+   <link rel="ico" type="image/x-icon" herf="static/images/收藏.ico"/>
+   <link rel="shortcut icon" herf="static/images/收藏.ico" type="image/x-icon"/>
     <i-cell title="我的收藏" is-link url="/pages/logs/main"></i-cell>
-    <i-cell title="在线客服" is-link> </i-cell>
+    <i-cell title="在线客服" is-link url="/pages/kefu/main"> </i-cell>
     
-    <i-cell title="我的订单" is-link> </i-cell>
+    <i-cell title="我的订单" is-link url="/pages/order/main"> </i-cell>
   
     <i-cell title="我的钱包" is-link url="/pages/money/main"></i-cell>
-    <i-cell title="设置" is-link url="/pages/money/main"></i-cell>
+    <i-cell title="设置" is-link url="/pages/shezhi/main"></i-cell>
 </i-cell-group>
   </div>
 </template>

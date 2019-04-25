@@ -1,3 +1,20 @@
 {
-  "navigationBarTitleText": "查看启动记录"
+  "navigationBarTitleText": "旅行贴士",
+  "navigationBarBackgroundColor":"#FFC78E",
+  "navigationBarTextStyle":"black",
+  "usingComponents": {
+      "i-button": "../../../static/dist/button/index",
+      "i-card": "../../../static/dist/card/index",
+      "i-panel": "../../../static/dist/panel/index",
+      "i-grid": "../../../static/dist/grid/index",
+      "i-grid-item": "../../../static/dist/grid-item/index",
+      "i-grid-icon": "../../../static/dist/grid-icon/index",
+      "i-grid-label": "../../../static/dist/grid-label/index",
+      "i-notice-bar": "../../../static/dist/notice-bar/index",
+      "i-tabs": "../../../static/dist/tabs/index",
+      "i-tab": "../../../static/dist/tab/index"
+  }
 }
+
+     
+  

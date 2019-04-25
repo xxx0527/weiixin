@@ -6,7 +6,9 @@
     "pages/map/main",
     "pages/mine/main",
     "pages/liulan/main",
-    "pages/money/main"
+    "pages/money/main",
+    "pages/kefu/main",
+    "pages/order/main"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -7,7 +7,7 @@
     <view>
       <swiper class="swiper" autoplay="true" interval="2000">
         <swiper-item>
-          <image src="/static/images/上海.jpg"> </image>
+          <image src="/static/images/上海.jpg"></image>
         </swiper-item>
         <swiper-item>
           <image src="/static/images/乌镇.jpg"></image>
@@ -125,19 +125,15 @@ export default {
   },
 
   methods: {
-    bindViewTap () {
-      const url = '../logs/main'
-      if (mpvuePlatform === 'wx') {
-        mpvue.switchTab({ url })
-      } else {
-        mpvue.navigateTo({ url })
+   goList(url){
+       mpvue.navigateTo({ url })
+   },
+     goType(type){
+       let url='../list/main?type='+ type
+       mpvue.navigateTo({ url })  
       }
     },
-    clickHandle (ev) {
-      console.log('clickHandle:', ev)
-      // throw {message: 'custom test'}
-    }
-  },
+  
 
   created () {
     // let app = getApp()

@@ -3,7 +3,7 @@
     <i-panel title="景点推荐">
       <view>
         <i-card i-class="split" v-for="item in recommand" :key="item" :extra="item.name" :thumb="item.img">
-            <view slot="content">推荐理由：{{item.remark}}</view>
+            <view slot="content">推荐理由：{{item.time}}</view>
             <view slot="footer">地址：{{item.address}}</view>
         </i-card>
       </view>

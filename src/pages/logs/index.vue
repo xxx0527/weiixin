@@ -2,7 +2,7 @@
   <div @click="clickHandle">     
       <i-grid i-class="no-border">
  <view>
- <i-panel title="收藏单">
+<view class='container'> 收藏单</view>
     <swiper class="swiper" vertical="true" interval="2000">
         <swiper-item>
           <image src="/static/images/上海.jpg"> </image>
@@ -26,8 +26,6 @@
             <image src="/static/images/凤凰古城.jpg"></image>
           </swiper-item>
      </swiper>
-
- </i-panel>
  </view>
     <i-grid-item i-class="no-border">
        <i-grid-icon> 
@@ -67,7 +65,11 @@
 
 <style scoped>
 div >>> .no-border {
-   border-width: 0pt; 
+   border-width: 0pt;
+  font-weight: 600;
+  font-size: 40rpx;
+  font-family: "宋体";
+ 
 }
 .top-padding {
   padding-top: 50rpx;
@@ -81,11 +83,11 @@ div >>> .no-border {
 }
 .swiper{
   width: 100%;
-  height: 600rpx;
+  height: 800rpx;
 }
 .swiper image{
   width: 100%;
-  height: 600rpx;
+  height: 1000rpx;
 }
 .userinfo-avatar {
   width: 128rpx;
@@ -130,5 +132,11 @@ div >>> .no-border {
   width:4.5rem;
   height:1rem;
   background-color:green;
+}
+
+.container{
+   width: 800rpx;
+ height: 100rpx;
+  text-align: center;
 }
 </style>

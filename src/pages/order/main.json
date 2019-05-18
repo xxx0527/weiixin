@@ -1,5 +1,7 @@
  {
-    "navigationBarTitleText": "区域",
+    "navigationBarTitleText": "订单详情",
+    "navigationBarBackgroundColor":"#FFC78E",
+    "navigationBarTextStyle":"black",
     "usingComponents": {
         "i-button": "../../../static/dist/button/index",
         "i-card": "../../../static/dist/card/index",

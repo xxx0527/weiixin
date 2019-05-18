@@ -1,6 +1,6 @@
 [
-    {"id":1,"name":"蜜雪冰城","address":"琴园路","remark":"很近，就在超市旁边","img":"/static/grids/3.png","type":3,"latitude": 30.575157,"longitude": 114.332303},
-    {"id":2,"name":"吾饮良品","address":"奥龙美食城","remark":"种类很多","img":"/static/grids/3.png","type":3,"latitude": 30.579434,"longitude": 114.330983},
-    {"id":3,"name":"麦当劳甜品站","address":"教育超市","remark":"还行","img":"/static/top/m.png","type":3,"latitude": 30.575748,"longitude": 114.332775},
-    {"id":4,"name":"珰糖茶饮","address":"湖大琴园33号门面","remark":"附近最好喝的","img":"/static/grids/3.png","type":3,"latitude": 30.573291,"longitude": 114.333172}
+    {"id":1,"name":"长沙世界之窗","address":"开福区三一大道485号","time":"建议游玩：0.5-1天","img":"/static/images/长沙.jpg","type":3},
+    {"id":2,"name":"橘子洲","address":"岳麓区橘子洲头2号","time":"建议游玩：3-5小时","img":"/static/images/长沙.jpg","type":3},
+    {"id":3,"name":"岳麓山","address":"登高路58号","time":"建议游玩：0.5-1天","img":"/static/images/长沙.jpg","type":3},
+    {"id":4,"name":"生态动物园","address":"天心区暮云镇西湖村芙蓉南路气象局对面","time":"建议游玩：2-4小时","img":"/static/images/长沙.jpg","type":3}
 ]

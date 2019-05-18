@@ -1,5 +1,7 @@
 {
-  "navigationBarTitleText": "旅游推荐",
+  "navigationBarTitleText": "旅游推荐",   
+  "navigationBarBackgroundColor":"#00E3E3",
+  "navigationBarTextStyle":"black",
   "usingComponents": {
       "i-grid": "../../../static/iview/grid/index",
       "i-grid-item": "../../../static/iview/grid-item/index",

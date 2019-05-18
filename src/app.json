@@ -8,7 +8,8 @@
     "pages/liulan/main",
     "pages/money/main",
     "pages/kefu/main",
-    "pages/order/main"
+    "pages/order/main",
+    "pages/list/main"
     
   ],
   "window": {

@@ -1,6 +1,18 @@
 <template>
    <div>
- 
+   <view class='page_row' bindtap="suo">
+   <view class="search">  
+
+<view class="df search_arr">
+  <icon class="searchcion" size='16' type='search'></icon>
+  <input class="input" placeholder-class="place-holder" placeholder="请输入关键字" bindinput='listenerSearchInput' bindconfirm="toSearch" />
+</view>
+   </view>
+    <view class='sousuo'>搜索</view>
+ </view>
+
+
+
 
  <i-tabs :current="current_scroll" scroll @change="handleChangeScroll">
     <i-tab key="tab1" title="周边"></i-tab>
@@ -78,9 +90,44 @@ export default {
       // throw {message: 'custom test'}
     
   },
+ listenerSearchInput: function (e) {
+    var searchInput = e.detail.value;
+    this.setData({
+      searchInput: searchInput
+    })
+  },
+ 
+ 
+  // 点击搜索
+  toSearch: function (sta) {
+    var that = this
+    if (that.data.searchInput) {
+      wx.request({
+        url: 'XXXXX',
+        data: {},
+        success: function (res) {
+          console.log('success!!!')
+        },
+        fail: function () {
+          console.log('failed!!!')
+        }
+      })
+    } else {
+      wx.showModal({
+        title: '提示',
+        content: '请输入搜索内容',
+        showCancel: false
+      })
+      return
+    }
+  },
 
-  created () {
+ 
+
+created () {
     // let app = getApp()
+
+
   }
 }
 </script>
@@ -143,7 +190,47 @@ div >>> .no-border {
   background-color:green;
 }
 
-
+.search{
+  width: 96%;
+}
+.search_arr {
+  border: 1px solid burlywood;
+  border-radius: 20rpx;
+  margin-left: 0rpx;
+  height: 60rpx;
+}
+.search_arr input{
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+.bc_text {
+  line-height: 68rpx;
+  height: 68rpx;
+  margin-top: 60rpx;
+}
+ 
+.sousuo {
+  margin-left: 10rpx;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+  border: 1px solid burlywood;
+  border-radius: 10rpx;
+}
+.page_row{
+  display: flex;
+  flex-direction: row
+}
+.searchcion {
+  margin: 15rpx 15rpx 15rpx 15rpx;
+  position: absolute;
+  left:5rpx;
+  z-index: 2;
+  width: 20px;
+  height: 0px;
+  text-align: center;
+}
 
 </style>
   

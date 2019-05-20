@@ -10,9 +10,9 @@
       <i-input :value="name" @change="changeName($event)" title="用户姓名:" autofocus placeholder=" " maxlength="20" />
       <i-input :value="sex" @change="changeAddress($event)" title="用户性别:" placeholder=" " maxlength="20" />
       <i-input :value="address" @change="changeReason($event)" title="目的地:" placeholder=" " maxlength="50" />
-       <i-input :value="time" @change="changeReason($event)" title="游玩时间" placeholder=" " maxlength="50" />
-       <i-input :value="number" @change="changeReason($event)" title="同行人数" placeholder=" " maxlength="50" />
-      <i-input :value="data" @change="changeReason($event)" title="出发日期" placeholder=" " maxlength="50" />
+       <i-input :value="time" @change="changeReason($event)" title="游玩时间:" placeholder=" " maxlength="50" />
+       <i-input :value="number" @change="changeReason($event)" title="同行人数:" placeholder=" " maxlength="50" />
+      <i-input :value="data" @change="changeReason($event)" title="出发日期:" placeholder=" " maxlength="50" />
     </i-panel>
     <i-button @click="handleClick" type="warning" size="default">提交信息</i-button>
     <view class="tips">一个关于旅游的小程序，对于热爱旅游的你是否又心动起来，准备收拾行李出发啦，加入我们体验不同的风景，认识不同的人！！！</view>
@@ -41,7 +41,7 @@ export default {
   },
 
   methods: {
-        changeName (event) {
+      changeName (event) {
       this.name = event.mp.detail.detail.value
     },
     changeSex (event) {
@@ -64,14 +64,14 @@ export default {
         wx.showToast({
           title: '尊敬的' + this.name +'，您去往' + this.address + '于' + this.data +'订单提交完毕，期待你有一个美好旅行！！！',
           icon: 'success',
-          duration: 2000
+          duration: 6000
         })
         // TODO:将推荐数据提交到云数据库
       } else {
         wx.showToast({
           title: '信息不完整',
           icon: 'none',
-          duration: 2000
+          duration: 6000
         })
       }
     }

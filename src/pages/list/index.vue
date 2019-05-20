@@ -37,8 +37,10 @@ export default {
 div >>> .split {
   margin-bottom: 10pt;
   border-color: aqua;
-  border: width 5px;
-  
+ border:width 5rpx;
+ border-style:solid;
+ box-shadow: 0px 2px 4px 2px #dddddd;
+ border-width: 0rpx; 
   font-weight: 600;
   font-size: 40rpx;
   font-family: "黑体";

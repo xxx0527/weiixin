@@ -2,7 +2,7 @@
   <div @click="clickHandle">
 
     <i-notice-bar icon="systemprompt" loop>
-    {{notice}}，这个夏天带你去遨游世界！！！
+    欢迎进入小熊旅游网站，{{notice}}，这个夏天带你遨游世界！！！
     </i-notice-bar>
     <view>
       <swiper class="swiper" autoplay="true" interval="2000">
@@ -71,12 +71,14 @@
     </i-grid-item>
 </i-grid>
   <i-panel title="猜你喜欢">
-    <view>
+    <view >
+      
       <i-card @click="goType(item.type)" i-class="split" v-for="item in recommand" :key="item" :extra="item.name" :thumb="item.img">
           <view slot="content">建议游玩：{{item.time}}</view>
           <view slot="footer">地址：{{item.address}}</view>
       </i-card>
     </view>
+    
   </i-panel>
 
   </div>
@@ -189,4 +191,5 @@ div >>> .no-border {
   height:1rem;
   background-color:green;
 }
+
 </style>

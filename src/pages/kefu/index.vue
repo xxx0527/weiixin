@@ -8,7 +8,7 @@
         <i-grid-label>客服</i-grid-label>
     </i-grid-item>
  </i-grid>
-  <i-panel title="出行当地服务"  >
+  <i-panel title="出行当地服务">
       <i-grid i-class="no-border">
       <i-grid-item i-class="no-border">
         <i-grid-icon>
@@ -35,8 +35,8 @@
         <i-grid-label>翻译</i-grid-label>
     </i-grid-item>
       </i-grid>
-</i-panel>
-  
+  </i-panel>
+ 
 <i-panel title="是否对您起到帮助">
      <i-grid i-class="no-border">
      <i-grid-item i-class="no-border">
@@ -56,7 +56,11 @@
 </div>
  </template>
 
-
+<style scoped>
+div >>> .split {
+text-align:center;
+}
+</style>
 
 
 

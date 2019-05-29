@@ -1,6 +1,6 @@
 [
-    {"id":1,"name":"长沙世界之窗","address":"开福区三一大道485号","time":"建议游玩：0.5-1天","img":"/static/images/长沙.jpg","type":3},
+    {"id":1,"name":"长沙世界之窗","address":"开福区三一大道485号","time":"建议游玩：0.5-1天","img":"/static/images/世界之窗.jpg","type":3},
     {"id":2,"name":"橘子洲","address":"岳麓区橘子洲头2号","time":"建议游玩：3-5小时","img":"/static/images/长沙.jpg","type":3},
-    {"id":3,"name":"岳麓山","address":"登高路58号","time":"建议游玩：0.5-1天","img":"/static/images/长沙.jpg","type":3},
-    {"id":4,"name":"生态动物园","address":"天心区暮云镇西湖村芙蓉南路气象局对面","time":"建议游玩：2-4小时","img":"/static/images/长沙.jpg","type":3}
+    {"id":3,"name":"岳麓山","address":"登高路58号","time":"建议游玩：0.5-1天","img":"/static/images/岳麓山.jpg","type":3},
+    {"id":4,"name":"生态动物园","address":"天心区暮云镇西湖村芙蓉南路气象局对面","time":"建议游玩：2-4小时","img":"/static/images/生态动物园.jpg","type":3}
 ]

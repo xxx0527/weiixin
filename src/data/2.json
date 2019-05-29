@@ -1,6 +1,6 @@
 [
-    {"id":1,"name":"上海迪士尼","address":"浦东新区川沙新镇","time":"建议游玩：1-2天","img":"/static/images/上海.jpg","type":2},
+    {"id":1,"name":"上海迪士尼","address":"浦东新区川沙新镇","time":"建议游玩：1-2天","img":"/static/images/迪士尼.jpg","type":2},
     {"id":2,"name":"东方明珠","address":"浦东新区陆家嘴世纪大道1号","time":"建议游玩：2-3小时","img":"/static/images/上海.jpg","type":2},
-    {"id":3,"name":"外滩","address":"黄浦区中山东一路","time":"建议游玩：1-2小时","img":"/static/images/上海.jpg","type":2},
-    {"id":4,"name":"上海杜莎夫人蜡像馆","address":"黄浦区人民广场新世界商厦10楼","time":"建议游玩：2-3小时","img":"/static/images/上海.jpg","type":2}
+    {"id":3,"name":"外滩","address":"黄浦区中山东一路","time":"建议游玩：1-2小时","img":"/static/images/外滩.jpg","type":2},
+    {"id":4,"name":"上海杜莎夫人蜡像馆","address":"黄浦区人民广场新世界商厦10楼","time":"建议游玩：2-3小时","img":"/static/images/杜莎夫人.jpg","type":2}
 ]

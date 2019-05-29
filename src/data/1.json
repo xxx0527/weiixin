@@ -1,7 +1,7 @@
 [
-    {"id":1,"name":"千古情景区","address":"三亚市吉阳区迎宾路333号","time":"建议游玩：3小时","img":"/static/images/三亚.jpg","type":1},
-    {"id":2,"name":"亚特兰蒂斯水世界","address":"三亚市海棠湾海棠北路","time":"建议游玩：2-5小时","img":"/static/images/三亚.jpg","type":1},
-    {"id":3,"name":"亚特兰蒂斯失落的空间水族馆","address":"三亚市海棠湾海棠北路","time":"建议游玩：1-2小时","img":"/static/images/三亚.jpg","type":1},
-    {"id":4,"name":"天涯海角","address":"三亚市沿海滨西行26公里","time":"建议游玩：3-5小时","img":"/static/images/三亚.jpg","type":1},
-    {"id":5,"name":"亚龙湾","address":"三亚市亚龙湾国家旅游度假区","time":"建议游玩：自由","img":"/static/images/三亚.jpg","type":1}
+    {"id":1,"name":"千古情景区","address":"三亚市吉阳区迎宾路333号","time":"建议游玩：3小时","img":"/static/images/千古情.jpg","type":1},
+    {"id":2,"name":"亚特兰蒂斯水世界","address":"三亚市海棠湾海棠北路","time":"建议游玩：2-5小时","img":"/static/images/亚蒂兰斯.jpg","type":1},
+    {"id":3,"name":"亚特兰蒂斯失落的空间水族馆","address":"三亚市海棠湾海棠北路","time":"建议游玩：1-2小时","img":"/static/images/水族馆.jpg","type":1},
+    {"id":4,"name":"天涯海角","address":"三亚市沿海滨西行26公里","time":"建议游玩：3-5小时","img":"/static/images/亚龙湾.jpg","type":1},
+    {"id":5,"name":"亚龙湾","address":"三亚市亚龙湾国家旅游度假区","time":"建议游玩：自由","img":"/static/images/亚龙湾.jpg","type":1}
 ]

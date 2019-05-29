@@ -1,8 +1,8 @@
 [
-    {"id":1,"name":"迪士尼乐园","address":"香港迪士尼乐园度假区","time":"建议游玩：8-10小时","img":"/static/images/香港.jpg","type":4},
+    {"id":1,"name":"迪士尼乐园","address":"香港迪士尼乐园度假区","time":"建议游玩：8-10小时","img":"/static/images/迪士尼.jpg","type":4},
     {"id":2,"name":"维多利亚港","address":"九龙半岛与香港之间的海湾","time":"建议游玩：1-2小时","img":"/static/images/香港.jpg","type":4},
-    {"id":3,"name":"南丫岛","address":"香港南丫岛","time":"建议游玩：4-6小时","img":"/static/images/香港.jpg","type":4},
-    {"id":4,"name":"尖沙咀","address":"九龙尖沙咀","time":"建议游玩：1天","img":"/static/images/香港.jpg","type":4},
-    {"id":5,"name":"太平山顶","address":"香港岛中环花园道33号","time":"建议游玩：3-5小时","img":"/static/images/香港.jpg","type":4},
-    {"id":6,"name":"中环摩天轮","address":"中环民光街33号","time":"建议游玩：0.5-1小时","img":"/static/images/香港.jpg","type":4}
+    {"id":3,"name":"南丫岛","address":"香港南丫岛","time":"建议游玩：4-6小时","img":"/static/images/南丫岛.jpg","type":4},
+    {"id":4,"name":"尖沙咀","address":"九龙尖沙咀","time":"建议游玩：1天","img":"/static/images/尖沙咀.jpg","type":4},
+    {"id":5,"name":"太平山顶","address":"香港岛中环花园道33号","time":"建议游玩：3-5小时","img":"/static/images/太平山顶.jpg","type":4},
+    {"id":6,"name":"中环摩天轮","address":"中环民光街33号","time":"建议游玩：0.5-1小时","img":"/static/images/中环摩天轮.jpg","type":4}
 ]

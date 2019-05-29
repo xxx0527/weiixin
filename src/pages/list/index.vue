@@ -2,12 +2,15 @@
   <div>
     <i-panel title="景点推荐">
       <view>
+         <view class="top-padding">
+ 
         <i-card i-class="split" v-for="item in recommand" :key="item" :extra="item.name" :thumb="item.img">
             <view slot="content">{{item.time}}</view>
             <view slot="footer">地址：{{item.address}}</view>
         </i-card>
       </view>
-    </i-panel>
+      </view>
+    </i-panel> 
 
   </div>
 </template>
@@ -39,11 +42,15 @@ div >>> .split {
   border-color: aqua;
  border:width 5rpx;
  border-style:solid;
- box-shadow: 0px 2px 4px 2px #dddddd;
+ box-shadow: 2px 2px 5px  #cfd8db;
  border-width: 0rpx; 
   font-weight: 600;
-  font-size: 40rpx;
-  font-family: "黑体";
+  font-size: 20rpx;
+  font-family:verdana;
+
+
+
+
 }
 .imagesize {
   display: flex;

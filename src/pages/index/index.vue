@@ -71,13 +71,12 @@
     </i-grid-item>
 </i-grid>
   <i-panel title="猜你喜欢">
-    <view >
-      
-      <i-card @click="goType(item.type)" i-class="split" v-for="item in recommand" :key="item" :extra="item.name" :thumb="item.img">
+  <view >
+       <i-card @click="goType(item.type)" i-class="split" v-for="item in recommand" :key="item" :extra="item.name" :thumb="item.img">
           <view slot="content">建议游玩：{{item.time}}</view>
           <view slot="footer">地址：{{item.address}}</view>
       </i-card>
-    </view>
+    </view> 
     
   </i-panel>
 
@@ -90,6 +89,7 @@ import top from '@/data/top.json'
 
 export default {
   data () {
+  
     return {
       notice:"夏日打卡地",
       grids:[
@@ -101,6 +101,7 @@ export default {
       ],
       recommand:top
       }
+  
    },
   
 
@@ -121,6 +122,7 @@ export default {
 
   created () {
     // let app = getApp()
+  
   }
 }
 </script>

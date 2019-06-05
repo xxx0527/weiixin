@@ -76,32 +76,32 @@
   <text class="card-title">三亚</text>
 	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559564662248&di=03a27b19f1575472dcf2e6146cd0db09&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1303%2F15%2Fc11%2F18947634_18947634_1363361408421.jpg'></image>
 	<text class="card-desc">情侣出游地</text>
-  <i-cell title="查看详情" is-link url="/pages/list1/main"> </i-cell>
+  <i-cell title="查看详情" is-link url="/pages/kefu/main"> </i-cell>
 </view>
  
 <view class="card">
 	<text class="card-title">上海</text>
 	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559564957729&di=06fb1c9e25b43bbaabc869296ed50912&imgtype=0&src=http%3A%2F%2Fs1.sinaimg.cn%2Fmw690%2F002ySfIBzy754HXJQ1Wb0%26690'></image>
 	<text class="card-desc">家人一同出行</text>
-	<i-cell title="查看详情" is-link url="/pages/list2/main"> </i-cell>
+	<i-cell title="查看详情" is-link url="/pages/kefu/main"> </i-cell>
  </view>
 <view class="card">
 	<text class="card-title">长沙</text>
 	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559565277762&di=f182350620da56eb25aae2bb2111cbcc&imgtype=0&src=http%3A%2F%2Fwww.zhongt.com.cn%2Fupload%2FPd15650fc963d4946ac0b9579434a4e05.jpg'></image>
 	<text class="card-desc">吃货必打卡地</text>
-	<i-cell title="查看详情" is-link url="/pages/list3/main"> </i-cell>
+	<i-cell title="查看详情" is-link url="/pages/kefu/main"> </i-cell>
  </view>
 <view class="card">
 	<text class="card-title">香港</text>
 	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559565343760&di=2116661c0d155c5d971e3a45fc640910&imgtype=0&src=http%3A%2F%2Fm.tuniucdn.com%2Ffilebroker%2Fcdn%2Fsnc%2Fbb%2F55%2Fbb55637c1da6aa50c9dccbd183f056d1_w800_h0_c0_t0.jpg'></image>
 	<text class="card-desc">购物天堂</text>
-	<i-cell title="查看详情" is-link url="/pages/list4/main"> </i-cell>
+	<i-cell title="查看详情" is-link url="/pages/kefu/main"> </i-cell>
  </view>
 <view class="card">
 	<text class="card-title">西安</text>
 	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559565383841&di=2f6278f1290b8a0a90833552f853c8a0&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1309%2F23%2Fc49%2F26198385_1379931537586.jpg'></image>
 	<text class="card-desc">体验古城别一般风韵</text>
- <i-cell title="查看详情" is-link url="/pages/list5/main"> </i-cell>
+ <i-cell title="查看详情" is-link url="/pages/kefu/main"> </i-cell>
 </view>
 
 <!-- <view class='shop'>

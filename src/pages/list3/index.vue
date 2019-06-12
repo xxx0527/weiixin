@@ -2,42 +2,56 @@
   <div @click="clickHandle">
 
 <view class='shop'>
-    <image class='shop-img' src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559715001191&di=9ece07f30c827f48d57824c12aea4e49&imgtype=0&src=http%3A%2F%2Fyouimg1.c-ctrip.com%2Ftarget%2F10080s000000hlyj9745C.jpg"></image>
+    <image class='shop-img' src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560349222658&di=13420231a633c0b9f07353f62e001edd&imgtype=0&src=http%3A%2F%2Fdpic.tiankong.com%2Fih%2Fbf%2FQJ9122765098.jpg%3Fx-oss-process%3Dstyle%2Fshow"></image>
     <view class='shop-info'>
-        <text class='shop-title ell'>海洋水族馆</text>
-        <text class='shop-address'>地址:上海市浦东新区陆家嘴环路1388号</text>
+        <text class='shop-title ell'>世界之窗</text>
+        <text class='shop-address'>地址：开福区三一大道485号</text>
        <text class='shop-time'>开放时间：9:00-21:00</text>
-        <text class='shop-time'>建议游玩时长:1-3小时</text>
+        <text class='shop-time'>建议游玩时长:0.5-1天</text>
       
     </view>
     <view class='shop-star'>
         <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:90%;">★★★★★</view>
-    </view>
- 
-</view>
- 
-<view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559715545156&di=192d14e8119e1211f074955e0cb10f97&imgtype=0&src=http%3A%2F%2Fp1.ssl.cdn.btime.com%2Ft0173110cc3f761f76a.jpg"></image>
-    <view class="shop-info">
-        <text class="shop-title ell">杜莎夫人蜡像</text>
-        <text class="shop-address">地址：黄浦区人民广场新世界商厦10楼</text>
-        <text class="shop-time">开放时间：10:00-21:00</text>
-        <text class='shop-time'>建议游玩时长:2-3小时</text>
-    </view>
-    <view class="shop-star">
-        <view class='star-after'>★★★★★</view>
         <view class='star-before' style="width:85%;">★★★★★</view>
     </view>
+ 
+</view>
+ 
+<view class="shop">
+    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560349549738&di=9ea21b082a6b7150f377ba5034ab61a1&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Fhn%2Fpics%2Fhv1%2F64%2F104%2F2174%2F141390934.jpg"></image>
+    <view class="shop-info">
+        <text class="shop-title ell">橘子洲</text>
+        <text class="shop-address">地址：岳麓区橘子洲头2号</text>
+        <text class="shop-time">开放时间：全天</text>
+        <text class='shop-time'>建议游玩时长:3-5小时</text>
+    </view>
+    <view class="shop-star">
+        <view class='star-after'>★★★★★</view>
+        <view class='star-before' style="width:90%;">★★★★★</view>
+    </view>
 </view>
 
 <view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559715801614&di=1911da81738ce2a76d4fc7ad9ca1690b&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1504%2F23%2Fc69%2F5847487_1429790469325_mthumb.jpg"></image>
+    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560349674836&di=f58b2e8e186cda770876fbe6f80d2efa&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1108%2F03%2Fc2%2F8531167_8531167_1312341687296.jpg"></image>
     <view class="shop-info">
-        <text class="shop-title ell">东方明珠</text>
-        <text class="shop-address">地址：浦东新区陆家嘴世纪大道1号</text>
-        <text class="shop-time">开放时间：8:00-22:00</text>
-        <text class='shop-time'>建议游玩时长:2-3小时</text>
+        <text class="shop-title ell">岳麓山</text>
+        <text class="shop-address">地址：登高路58号</text>
+        <text class="shop-time">开放时间：全天</text>
+        <text class='shop-time'>建议游玩时长:0.5-1小时</text>
+    </view>
+    <view class="shop-star">
+        <view class='star-after'>★★★★★</view>
+        <view class='star-before' style="width:90%;">★★★★★</view>
+    </view>
+</view>
+
+<view class="shop">
+    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560350359584&di=dcf99275a3ab7f15901d1fb07a9d6f28&imgtype=0&src=http%3A%2F%2Fwww.hdsj.com%2Fwp-content%2Fuploads%2F2016%2F06%2F20160622001629-12.jpg"></image>
+    <view class="shop-info">
+        <text class="shop-title ell">海底世界</text>
+        <text class="shop-address">地址：开福区三一大道501号</text>
+        <text class="shop-time">开放时间：9:00-18:00</text>
+        <text class='shop-time'>建议游玩时长:3-4小时</text>
     </view>
     <view class="shop-star">
         <view class='star-after'>★★★★★</view>
@@ -46,40 +60,26 @@
 </view>
 
 <view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559714077174&di=4558e5161c2163a39e878c217877a4a9&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1506%2F02%2Fc1%2F7809865_1433177624198.jpg"></image>
+    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560350625240&di=a526cf250145d78635d6b376033d147b&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fq_mini%2Cc_zoom%2Cw_640%2Fupload%2F20170306%2F378ae887b1984d5ea0a1b1c3bb23eb1c_th.jpeg"></image>
     <view class="shop-info">
-        <text class="shop-title ell">亚龙湾</text>
-        <text class="shop-address">地址：亚龙湾国家旅游度假区</text>
-        <text class="shop-time">开放时间：8:00-17:30</text>
-        <text class='shop-time'>建议游玩时长:3-4天</text>
+        <text class="shop-title ell">湖南省博物馆</text>
+        <text class="shop-address">地址：开福区东风路50号</text>
+        <text class="shop-time">开放时间：9:00-17:00</text>
+        <text class='shop-time'>建议游玩时长:2-5小时</text>
     </view>
     <view class="shop-star">
         <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:92%;">★★★★★</view>
+        <view class='star-before' style="width:80%;">★★★★★</view>
     </view>
 </view>
 
 <view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559714234502&di=a43c710bccb9882c9ec28e1b6f2b8d0a&imgtype=0&src=http%3A%2F%2Fs8.sinaimg.cn%2Fmw690%2F003pK4uxty6Fv837p9te7%26690"></image>
+    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560947913&di=bcdf12d64d34b0d77aa8a0652c2d7770&imgtype=jpg&er=1&src=http%3A%2F%2Fp1.ssl.cdn.btime.com%2Ft016ffeeea228ffa66d.jpg%3Fsize%3D1600x738"></image>
     <view class="shop-info">
-        <text class="shop-title ell">鸟巢度假村</text>
-        <text class="shop-address">地址：吉阳区亚龙湾国际旅游度假区</text>
-        <text class="shop-time">开放时间：全天</text>
-        <text class='shop-time'>建议游玩时长:1天</text>
-    </view>
-    <view class="shop-star">
-        <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:88%;">★★★★★</view>
-    </view>
-</view>
-
-<view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559714514584&di=603af805a7ff7c4a5beaf1c48c543178&imgtype=0&src=http%3A%2F%2Fdimg06.c-ctrip.com%2Fimages%2F100h0a0000004fkhi406D_R_1024_10000_Q90.jpg"></image>
-    <view class="shop-info">
-        <text class="shop-title ell">解放路步行街</text>
-        <text class="shop-address">地址：吉阳区</text>
-        <text class="shop-time">开放时间：全天</text>
-        <text class='shop-time'>建议游玩时长:1-2小时</text>
+        <text class="shop-title ell">华谊兄弟电影小镇</text>
+        <text class="shop-address">地址：岳麓区坪塘街道星光路6号</text>
+        <text class="shop-time">开放时间：9:30-21:30</text>
+        <text class='shop-time'>建议游玩时长:4-6小时</text>
     </view>
     <view class="shop-star">
         <view class='star-after'>★★★★★</view>

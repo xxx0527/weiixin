@@ -2,88 +2,88 @@
   <div @click="clickHandle">
 
 <view class='shop'>
-    <image class='shop-img' src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559715001191&di=9ece07f30c827f48d57824c12aea4e49&imgtype=0&src=http%3A%2F%2Fyouimg1.c-ctrip.com%2Ftarget%2F10080s000000hlyj9745C.jpg"></image>
+    <image class='shop-img' src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560351064721&di=2a31915a4ed633fa9e0e82731fc809f9&imgtype=0&src=http%3A%2F%2Fyouimg1.c-ctrip.com%2Ftarget%2Ffd%2Ftg%2Fg4%2FM03%2F8A%2F4D%2FCggYHlXpVCSAF58WAAGPnkOVujM177.jpg"></image>
     <view class='shop-info'>
-        <text class='shop-title ell'>海洋水族馆</text>
-        <text class='shop-address'>地址:上海市浦东新区陆家嘴环路1388号</text>
-       <text class='shop-time'>开放时间：9:00-21:00</text>
-        <text class='shop-time'>建议游玩时长:1-3小时</text>
+        <text class='shop-title ell'>迪士尼乐园</text>
+        <text class='shop-address'>地址:香港迪士尼乐园度假区</text>
+       <text class='shop-time'>开放时间：不定</text>
+        <text class='shop-time'>建议游玩时长:8-10小时</text>
       
     </view>
     <view class='shop-star'>
         <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:90%;">★★★★★</view>
+        <view class='star-before' style="width:96%;">★★★★★</view>
     </view>
  
 </view>
  
 <view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559715545156&di=192d14e8119e1211f074955e0cb10f97&imgtype=0&src=http%3A%2F%2Fp1.ssl.cdn.btime.com%2Ft0173110cc3f761f76a.jpg"></image>
+    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560945941&di=38dc82922bbf7c71d7ee045c2d88907e&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1310%2F21%2Fc2%2F27757414_1382317071063.jpg"></image>
     <view class="shop-info">
-        <text class="shop-title ell">杜莎夫人蜡像</text>
-        <text class="shop-address">地址：黄浦区人民广场新世界商厦10楼</text>
-        <text class="shop-time">开放时间：10:00-21:00</text>
-        <text class='shop-time'>建议游玩时长:2-3小时</text>
-    </view>
-    <view class="shop-star">
-        <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:85%;">★★★★★</view>
-    </view>
-</view>
-
-<view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559715801614&di=1911da81738ce2a76d4fc7ad9ca1690b&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1504%2F23%2Fc69%2F5847487_1429790469325_mthumb.jpg"></image>
-    <view class="shop-info">
-        <text class="shop-title ell">东方明珠</text>
-        <text class="shop-address">地址：浦东新区陆家嘴世纪大道1号</text>
-        <text class="shop-time">开放时间：8:00-22:00</text>
-        <text class='shop-time'>建议游玩时长:2-3小时</text>
-    </view>
-    <view class="shop-star">
-        <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:92%;">★★★★★</view>
-    </view>
-</view>
-
-<view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559714077174&di=4558e5161c2163a39e878c217877a4a9&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1506%2F02%2Fc1%2F7809865_1433177624198.jpg"></image>
-    <view class="shop-info">
-        <text class="shop-title ell">亚龙湾</text>
-        <text class="shop-address">地址：亚龙湾国家旅游度假区</text>
-        <text class="shop-time">开放时间：8:00-17:30</text>
-        <text class='shop-time'>建议游玩时长:3-4天</text>
-    </view>
-    <view class="shop-star">
-        <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:92%;">★★★★★</view>
-    </view>
-</view>
-
-<view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559714234502&di=a43c710bccb9882c9ec28e1b6f2b8d0a&imgtype=0&src=http%3A%2F%2Fs8.sinaimg.cn%2Fmw690%2F003pK4uxty6Fv837p9te7%26690"></image>
-    <view class="shop-info">
-        <text class="shop-title ell">鸟巢度假村</text>
-        <text class="shop-address">地址：吉阳区亚龙湾国际旅游度假区</text>
-        <text class="shop-time">开放时间：全天</text>
-        <text class='shop-time'>建议游玩时长:1天</text>
-    </view>
-    <view class="shop-star">
-        <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:88%;">★★★★★</view>
-    </view>
-</view>
-
-<view class="shop">
-    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559714514584&di=603af805a7ff7c4a5beaf1c48c543178&imgtype=0&src=http%3A%2F%2Fdimg06.c-ctrip.com%2Fimages%2F100h0a0000004fkhi406D_R_1024_10000_Q90.jpg"></image>
-    <view class="shop-info">
-        <text class="shop-title ell">解放路步行街</text>
-        <text class="shop-address">地址：吉阳区</text>
+        <text class="shop-title ell">维多利亚港</text>
+        <text class="shop-address">地址：香港九龙半岛与香港岛之间的海湾</text>
         <text class="shop-time">开放时间：全天</text>
         <text class='shop-time'>建议游玩时长:1-2小时</text>
     </view>
     <view class="shop-star">
         <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:70%;">★★★★★</view>
+        <view class='star-before' style="width:90%;">★★★★★</view>
+    </view>
+</view>
+
+<view class="shop">
+    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560351405110&di=6a3f7a0e6d6a80afb0978852e9dff280&imgtype=0&src=http%3A%2F%2Fn4-q.mafengwo.net%2Fs10%2FM00%2F45%2F6A%2FwKgBZ1lXD1qAddA0AALzOSncFuc01.jpeg"></image>
+    <view class="shop-info">
+        <text class="shop-title ell">中环摩天轮</text>
+        <text class="shop-address">地址：中环民光街33号，中环海滨长廊</text>
+        <text class="shop-time">开放时间：11:00-23:00</text>
+        <text class='shop-time'>建议游玩时长:0.5-1小时</text>
+    </view>
+    <view class="shop-star">
+        <view class='star-after'>★★★★★</view>
+        <view class='star-before' style="width:92%;">★★★★★</view>
+    </view>
+</view>
+
+<view class="shop">
+    <image class="shop-img" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1726199315,4264834266&fm=26&gp=0.jpg"></image>
+    <view class="shop-info">
+        <text class="shop-title ell">太平山顶</text>
+        <text class="shop-address">地址：香港岛中环花园道33号</text>
+        <text class="shop-time">开放时间：7:00-23:59</text>
+        <text class='shop-time'>建议游玩时长:3-5小时</text>
+    </view>
+    <view class="shop-star">
+        <view class='star-after'>★★★★★</view>
+        <view class='star-before' style="width:90%;">★★★★★</view>
+    </view>
+</view>
+
+<view class="shop">
+    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560351676243&di=39f5b8cd0ae49c0465f3a4f39fb834dd&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170809%2F600b006274844a6baac95bd54c4206c9_th.jpg"></image>
+    <view class="shop-info">
+        <text class="shop-title ell">尖沙咀</text>
+        <text class="shop-address">地址：香港九龙尖沙咀</text>
+        <text class="shop-time">开放时间：全天</text>
+        <text class='shop-time'>建议游玩时长:1天</text>
+    </view>
+    <view class="shop-star">
+        <view class='star-after'>★★★★★</view>
+        <view class='star-before' style="width:92%;">★★★★★</view>
+    </view>
+</view>
+
+<view class="shop">
+    <image class="shop-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560351866672&di=86fd7a3bf88ce2043a66f3d27d7fab99&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20180930%2F22fffe9c887a40c1bbe36fde86b0d88d.jpeg"></image>
+    <view class="shop-info">
+        <text class="shop-title ell">长洲岛</text>
+        <text class="shop-address">地址：香港岛西南海域</text>
+        <text class="shop-time">开放时间：全天</text>
+        <text class='shop-time'>建议游玩时长:1-2天</text>
+    </view>
+    <view class="shop-star">
+        <view class='star-after'>★★★★★</view>
+        <view class='star-before' style="width:90%;">★★★★★</view>
     </view>
 </view>
 

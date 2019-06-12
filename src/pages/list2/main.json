@@ -1,5 +1,5 @@
 { 
-    "navigationBarTitleText": "旅游网站", 
+    "navigationBarTitleText": "热门景点推荐", 
     "navigationBarBackgroundColor":"#33CCFF",
     "navigationBarTextStyle":"black",
     "usingComponents": {

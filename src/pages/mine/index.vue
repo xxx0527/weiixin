@@ -8,7 +8,6 @@
     </view>
     <i-cell-group>
 
-    <i-cell title="我的收藏" is-link url="/pages/logs/main"></i-cell>
     <i-cell title="在线客服" is-link url="/pages/kefu/main"> </i-cell>
     
     <i-cell title="我的订单" is-link url="/pages/order/main"> </i-cell>

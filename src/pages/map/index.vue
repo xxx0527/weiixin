@@ -5,12 +5,15 @@
 
 <view class="df search_arr">
   <icon class="searchcion" size='16' type='search'></icon>
+   
+					
   <input class="input" placeholder-class="place-holder" placeholder="请输入关键字" bindinput='listenerSearchInput' bindconfirm="toSearch" />
 </view>
    </view>
-    <view class='sousuo'>搜索</view>
- </view>
+    <view class='sousuo'>搜索</view> 
+ </view> 
 
+  
 
 
 
@@ -58,12 +61,12 @@ export default {
     return {
     
      
-      current_scroll:'tabl',
+       current_scroll:'tabl',
       motto: 'Hello miniprograme',
       userInfo: {
         nickName: 'mpvue',
         avatarUrl: 'http://mpvue.com/assets/logo.png'
-      }
+      } 
     }
   },
 

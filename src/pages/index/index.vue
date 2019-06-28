@@ -7,7 +7,7 @@
     <view>
       <swiper class="swiper" autoplay="true" interval="2000">
         <swiper-item>
-          <image src="/static/images/上海.jpg"></image>
+          <image src="cloud://xxx0527-d45a62.7878-xxx0527-d45a62/上海.jpg"></image>
         </swiper-item>
         <swiper-item>
           <image src="/static/images/乌镇.jpg"></image>
@@ -25,7 +25,7 @@
             <image src="/static/images/重庆.jpg"></image>
           </swiper-item>
          <swiper-item>
-            <image src="/static/images/凤凰古城.jpg"></image>
+            <image src="cloud://xxx0527-d45a62.7878-xxx0527-d45a62/凤凰古城.jpg"></image>
           </swiper-item>
      </swiper>
    </view>
@@ -74,73 +74,36 @@
    
 <view class="card">
   <text class="card-title">三亚</text>
-	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559564662248&di=03a27b19f1575472dcf2e6146cd0db09&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1303%2F15%2Fc11%2F18947634_18947634_1363361408421.jpg'></image>
+	<image class='card-img' src="cloud://xxx0527-d45a62.7878-xxx0527-d45a62/三亚.jpg"></image>
 	<text class="card-desc">情侣出游地</text>
   <i-cell title="查看详情" is-link url="/pages/list1/main"> </i-cell>
 </view>
  
 <view class="card">
 	<text class="card-title">上海</text>
-	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559564957729&di=06fb1c9e25b43bbaabc869296ed50912&imgtype=0&src=http%3A%2F%2Fs1.sinaimg.cn%2Fmw690%2F002ySfIBzy754HXJQ1Wb0%26690'></image>
+	<image class='card-img' src="cloud://xxx0527-d45a62.7878-xxx0527-d45a62/上海.jpg"></image>
 	<text class="card-desc">家人一同出行</text>
 	<i-cell title="查看详情" is-link url="/pages/list2/main"> </i-cell>
  </view>
 <view class="card">
 	<text class="card-title">长沙</text>
-	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559565277762&di=f182350620da56eb25aae2bb2111cbcc&imgtype=0&src=http%3A%2F%2Fwww.zhongt.com.cn%2Fupload%2FPd15650fc963d4946ac0b9579434a4e05.jpg'></image>
+	<image class='card-img' src="cloud://xxx0527-d45a62.7878-xxx0527-d45a62/长沙.jpg"></image>
 	<text class="card-desc">吃货必打卡地</text>
 	<i-cell title="查看详情" is-link url="/pages/list3/main"> </i-cell>
  </view>
 <view class="card">
 	<text class="card-title">香港</text>
-	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559565343760&di=2116661c0d155c5d971e3a45fc640910&imgtype=0&src=http%3A%2F%2Fm.tuniucdn.com%2Ffilebroker%2Fcdn%2Fsnc%2Fbb%2F55%2Fbb55637c1da6aa50c9dccbd183f056d1_w800_h0_c0_t0.jpg'></image>
+	<image class='card-img' src="cloud://xxx0527-d45a62.7878-xxx0527-d45a62/香港.jpg"></image>
 	<text class="card-desc">购物天堂</text>
 	<i-cell title="查看详情" is-link url="/pages/list4/main"> </i-cell>
  </view>
 <view class="card">
 	<text class="card-title">西安</text>
-	<image class='card-img' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559565383841&di=2f6278f1290b8a0a90833552f853c8a0&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1309%2F23%2Fc49%2F26198385_1379931537586.jpg'></image>
+	<image class='card-img' src="cloud://xxx0527-d45a62.7878-xxx0527-d45a62/西安.jpg"></image>
 	<text class="card-desc">体验古城别一般风韵</text>
  <i-cell title="查看详情" is-link url="/pages/list5/main"> </i-cell>
 </view>
 
-<!-- <view class='shop'>
-    <image class='shop-img' src='http://p1.meituan.net/200.0/dpdeal/5f37afe9ef2dc9c68db49dbe9bfb6c15419781.jpg'></image>
-    <view class='shop-info'>
-        <text class='shop-title ell'>三亚</text>
-        <text class='shop-tel'>地址：海南省南部</text>
-        <text class='shop-address'>情侣出游地</text>
-        <text class='shop-time'>建议游玩:六月份</text>
-      
-    </view>
-    <view class='shop-star'>
-        <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:50%;">★★★★★</view>
-    </view>
- 
-</view>
- 
-<view class="shop">
-    <image class="shop-img" src="http://p0.meituan.net/200.0/deal/5511b4e5b25fdd67aea0bbca8656ec581139488.jpg@200_0_800_800a%7C267h_267w_2e_90Q"></image>
-    <view class="shop-info">
-        <text class="shop-title ell">上海</text>
-        <text class="shop-tel">地址：上海市</text>
-        <text class="shop-address">适合家人旅游</text>
-        <text class="shop-time">建议游玩：三，四月份</text>
-    </view>
-    <view class="shop-star">
-        <view class='star-after'>★★★★★</view>
-        <view class='star-before' style="width:90%;">★★★★★</view>
-    </view>
-</view> -->
- 
- <!--  <view >
-       <i-card @click="goType(item.type)" i-class="split" v-for="item in recommand" :key="item" :extra="item.name" :thumb="item.img">
-          <view slot="content">建议游玩：{{item.time}}</view>
-          <view slot="footer">地址：{{item.address}}</view>
-      </i-card>
-    </view>  -->
-    
   </i-panel>
 
   </div>
